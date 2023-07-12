@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de compras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/style.css">  
+  <script src="assets/js/main.js" type="module" defer></script>
+  
+</head>
+<body id="miBody">
+<!-- LOADER-->
+  <div class="loader">
+    <div class="loader__container">
+      <span></span>
+    </div>
+  </div>
+
+  <!-- HEADER-->
+  <header class="header">
+    <nav class="nav container">
+      <a href="/" class="nav__logo">
+        <img src="Logo-pfu.svg" alt="" class="logo__icon">
+      </a>
+      <div class="nav__local__storage">
+        <button id="restLS"  class="agrega__localStorage" type="button" >Reset localStorage</button>
+      </div>
+      <div class="nav__menu ">
+        <button type="button" class="nav__btn btn__close">
+          <i class='bx bx-x'></i>
+        </button>
+
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="#" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">Productos</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">Informacion</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="nav__buttons">
+        <button type="button" class="nav__btn btn__cart" >
+          <i class='bx bxs-shopping-bag'></i>
+          <span class="notify">0</span>
+        </button>
+        <button type="button" class="nav__btn btn__menu">
+          <i class='bx bxs-grid-alt'></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN-->
+  <main class="main">
+    <section class="products section">
+      <h2 class="products__title section__title">Productos</h2>
+      <div class="products__container container"></div>
+    </section>
+    <div class="modal"></div>
+    <div class="modal__compra"></div>
+  </main>
+
+  <!-- CART-->
+  <div class="cart">
+    <div class="cart__container">
+      <div class="cart__header">
+        <h3 class="cart__title">carrito de compras</h3>
+        <button type="button" class="cart__btn cart__close">
+          <i class='bx bx-x'></i>
+        </button>
+      </div>
+      <div class="cart__body"> </div>
+      <div class="cart_footer">
+        <div class="cart__count">
+          <span class="cart__count__text">Articulos</span>
+          <span class="cart__count__item">0</span>
+        </div>
+        <div class="cart__total">
+          <span class="cart__total__text">Total</span>
+          <span class="cart__total__item">$0</span>
+        </div>
+        <button type="button" class="cart__btn btn__buy">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer section">
+    <div class="footer__container container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <h3 class="footer__title">Sobre Nosotros</h3>
+          <p class="footer__text">Un Descripcion breve del equipo , asi como sus nombres</p>
+        </div>
+        <div class="footer__right">
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__social">
+            <li class="footer__item">
+              <a href="#" class="footer_link">
+                <i class='bx bxl-facebook-square'></i>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer_link">
+                <i class='bx bxl-instagram-alt'></i>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer_link">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__text">Todos los derechos reservados </P>  
+      </div>
+    
+    </div>
+  </footer>
+     <!-- <script src="assets/js/helpers/data.js"></script> -->
+  
+</body>
+</html>
+
+
+
+
