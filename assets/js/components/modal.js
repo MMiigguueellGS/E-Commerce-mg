@@ -8,6 +8,7 @@ function printModal(elem){
         <div class="modal-content">
           <h2>${elem.name}</h2>
           <p>${elem.description}</p>
+          <img src="${elem.image}" alt="${elem.name}" class="img__modal">
         </div>
     `
    ;
