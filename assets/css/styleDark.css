@@ -1,0 +1,75 @@
+body.dark .header,
+body.dark .footer.section{
+  background-color: #333333;
+  color: white;
+}
+body.dark .footer.section .footer__text{
+  color: white;
+}
+body.dark .footer.section .footer__social .footer__item .footer_link{
+ 
+  color: #333333;
+}
+
+body.dark .main{
+  background-color: #1E1E1E;
+  color: white;
+}
+
+body.dark .main .products.section .products__title,
+body.dark .main .products.section .product__title{
+  color: white;
+}
+
+body.dark .main .products.section .product__image{
+  background-color: #2d2d2d;
+}
+body.dark .main .products.section .product__content
+{
+  background-color: #454545;
+}
+
+body.dark .main .products.section .add__to__cart{
+  background-color:#666666 ;
+}
+
+body.dark .main .products.section .bxs-info-circle{
+  color:#666666 ;
+}
+
+body.dark .cart{
+  background-color: #1E1E1E;
+  color: white;
+}
+
+body.dark .cart .cart__title,
+body.dark .cart .cart__close
+{
+  color: white;
+}
+
+body.dark .cart .cart__body .article_title,
+body.dark .cart .cart__body .article_title
+{
+  color: white;
+}
+
+body.dark .cart .cart__body .article__quantity .article__minus,
+body.dark .cart .cart__body .article__quantity .article__plus,
+body.dark .cart .cart__body .bx.bx-trash
+{
+  color: white;
+}
+
+body.dark .cart .cart_footer{
+  background-color: #333333;
+  color: white;
+}
+body.dark .cart .cart_footer .cart__count,
+body.dark .cart .cart_footer .cart__total{
+ color: white;
+}
+body.dark .cart .cart_footer .cart__btn{
+  background-color: #454545;
+  color: white;
+ }

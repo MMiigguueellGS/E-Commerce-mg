@@ -7,10 +7,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="assets/css/style.css">  
+  <link rel="stylesheet" href="assets/css/styleDark.css">
   <script src="assets/js/main.js" type="module" defer></script>
   
 </head>
-<body id="miBody">
+<body id="miBody" >
 <!-- LOADER-->
   <div class="loader">
     <div class="loader__container">
@@ -20,12 +21,15 @@
 
   <!-- HEADER-->
   <header class="header">
-    <nav class="nav container">
+    <nav class="nav container ">
       <a href="/" class="nav__logo">
         <img src="Logo-pfu.svg" alt="" class="logo__icon">
       </a>
+      <div class="nav__sun_">
+        <button id="dark__sun"  class="dark__sun" type="button" ><i class='bx bxs-sun'></i></button>
+      </div>
       <div class="nav__local__storage">
-        <button id="restLS"  class="agrega__localStorage" type="button" >Reset </button>
+        <button id="restLS"  class="agrega__localStorage" type="button" >ResetDB </button>
       </div>
       <div class="nav__menu ">
         <button type="button" class="nav__btn btn__close">
@@ -131,7 +135,6 @@
   
 </body>
 </html>
-
 
 
 

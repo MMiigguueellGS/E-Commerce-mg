@@ -92,6 +92,8 @@ body{
   font-weight: var(--font-normal);
   color: var(--text-color);
   background-color: var(--body-color);
+ /* background-color: black; */
+
 }
 a{
   text-decoration: none;
@@ -262,12 +264,12 @@ button{
   align-items: center;
 
 }
-.agrega__localStorage{
+.agrega__localStorage, .dark__sun{
   color: var(--bg-color);
   
 }
 
-.agrega__localStorage:hover{
+.agrega__localStorage:hover,.dark__sun:hover{
   color: var(--title-color);
   
 }
@@ -441,6 +443,7 @@ button{
   border-radius: 50%;
 }
 .info-btn{
+ 
   color: var(--primary-color);
   font-size: var(--sp-1-5);
 }
@@ -707,6 +710,8 @@ transition: right .5s ease-in-out;
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 20%;
+ 
 }
 
 .modal-content {
@@ -722,7 +727,6 @@ transition: right .5s ease-in-out;
   width: 80%;
   border:2px solid var(--primary-color);
   border-radius: 40px;
-  
 }
 
 

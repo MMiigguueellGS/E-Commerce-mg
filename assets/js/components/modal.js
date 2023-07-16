@@ -18,7 +18,6 @@ function printModal(elem){
 
 function openModal(elem) {
  
-    console.log(elem.description)
   
   printModal(elem);
   modalDOM.style.display = 'block';

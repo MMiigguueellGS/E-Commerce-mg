@@ -21,7 +21,7 @@ const db = JSON.parse(ls.getItem('products')) || products
       <span class="product__stock">Disponible: ${product.quantity}</span>
       <h3 class="product__title">${product.name}</h3> 
       <div class="product_information">
-        <button class="info-btn" data-id="${product.id}""><i class='bx bxs-info-circle'></i></button>
+        <button class="info-btn btn-informacion" data-id="${product.id}""><i class='bx bxs-info-circle'></i></button>
       </div>
   
     </div>

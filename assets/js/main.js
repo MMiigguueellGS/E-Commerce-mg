@@ -4,8 +4,8 @@ import showCart  from './components/showCart.js'
 import products from './components/products.js';
 import getProducts from './helpers/getProducts.js';
 import cart from './components/cart.js';
-
 import modal from './components/modal.js';
+import darkMode from './components/darkMode.js';
 
 loader();
 //mostrar menu
@@ -26,5 +26,6 @@ restLS.onclick = function () {
     window.localStorage.removeItem('products')
 }
 
+darkMode();
 // localStorage();
 
